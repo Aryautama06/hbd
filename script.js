@@ -69,10 +69,3 @@ document.addEventListener('DOMContentLoaded', () => {
     birthdaySong.load();
     startCountdown(10); // Mulai hitung mundur 10 detik
 });
-
-// Tambahkan event listener untuk interaksi pengguna
-document.body.addEventListener('click', () => {
-    if (birthdaySong.paused) {
-        birthdaySong.play().catch(e => console.error('Gagal memutar lagu setelah klik:', e));
-    }
-}, { once: true });
