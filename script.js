@@ -5,8 +5,8 @@ const birthdaySong = document.getElementById('birthday-song');
 
 const birthdayMessage = `
     <h2>Selamat Ulang Tahun, Sayangku Uci! 🎉❤️</h2>
-    <p>Sayangku Uci, di hari spesialmu ini, Tama ingin mengucapkan selamat ulang tahun yang paling indah untukmu. Terima kasih sudah selalu ada di hidup Tama, membawa kebahagiaan dan senyuman setiap harinya. Semoga setiap langkahmu ke depan dipenuhi dengan keberkahan, cinta, dan kebahagiaan. Tama akan selalu ada di sisimu, mendukungmu dalam setiap impian dan harapanmu. Selamat bertambah usia, cinta. Tama sayang kamu lebih dari kata-kata yang bisa diungkapkan.</p>
-    <p>Di hari ulang tahunmu ini, Tama berjanji akan terus menjaga dan mencintaimu dengan sepenuh hati. Setiap detik bersama kamu adalah anugerah yang tak ternilai, dan Tama tak sabar untuk melewati lebih banyak waktu bersama. Semoga semua harapanmu terwujud dan kita selalu bersama, menapaki perjalanan hidup ini berdua, saling melengkapi dan menguatkan. Selamat ulang tahun, cintaku Uci, kamu adalah alasan Tama tersenyum setiap hari.</p>
+    <p>Sayang awak Uci, di hari spesial ini, Tama ingin mengucapkan selamat ulang tahun yang paling indah untuk uci. Terima kasih sudah selalu ada di hidup Tama, membawa kebahagiaan dan senyuman setiap harinya. Semoga setiap langkah uci ke depan dipenuhi dengan warna, cinta, dan kebahagiaan. Tama selalu ada di sisi uci eakk, ngedukung uci dalam setiap impian dan harapan uci. Selamat bertambah usia, cinta. Tama sayang uci lebih dari kata-kata yang bisa diungkapkan.</p>
+    <p>Di hari ulang tahun uci ini, Tama janji akan terus menjaga dan mencintai uci dengan sepenuh hati. Setiap detik bersama uci adalah anugerah yang tak ternilai, dan Tama tak sabar untuk melewati lebih banyak waktu bersama. Semoga semua harapan uci terwujud dan kita selalu bersama, menapaki perjalanan hidup ini berdua, saling melengkapi dan menguatkan. Selamat ulang tahun, cintaku Uci, uci alasan Tama tersenyum setiap hari.</p>
 `;
 
 function startCountdown(duration) {
@@ -32,6 +32,7 @@ function hideCountdown() {
     
     setTimeout(() => {
         countdownElement.style.display = 'none';
+        console.log('Countdown selesai, menampilkan pesan ulang tahun');
         showBirthdayContent();
     }, 1000);
 }
